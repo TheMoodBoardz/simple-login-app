@@ -67,7 +67,7 @@ If you have Docker installed, run the following command to start SimpleLogin loc
 
 
 ```bash
-docker run --name sl -it --rm \
+sudo docker run --name sl -it --rm \
     -e RESET_DB=true \
     -e CONFIG=/code/example.env \
     -p 7777:7777 \
